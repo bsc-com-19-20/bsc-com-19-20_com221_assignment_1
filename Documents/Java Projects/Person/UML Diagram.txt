@@ -1,0 +1,20 @@
+__________________________________________
+|                Person                  |
+|----------------------------------------|
+| -name: String                          |
+| -address: String                       |
+| -phone: String                         |
+| -email: String                         |
+| +Person()                              |
+| +Person(name: String, address: String, |
+|  phone: String, email: String)         |
+| +getName(): String                     |
+| +getAddress(): String                  |
+| +getPhone(): String                    |
+| +getEmail(): String                    |
+| +setName(name: String ): void          |
+| +setAddress(address: String): void     |
+| +setPhone(phone: String): void         |
+| +setEmail(email: String): void         |
+| +toString(): String                    |
+------------------------------------------
