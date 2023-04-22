@@ -18,3 +18,68 @@ __________________________________________
 | +setEmail(email: String): void         |
 | +toString(): String                    |
 ------------------------------------------
+____________________________________________________________________
+|                       Employee                                   |
+|------------------------------------------------------------------|
+| -office: int                                                     |
+| -salary: double                                                  |
+| -dateHired: MyDate                                               |
+| +Employee(name: String, address: String, phone: String,          |
+|  email: String, office: int, salary: double, dateHired: MyDate); |
+| +getOffice(): int                                                |
+| +getSalary(): double                                             |
+| +getDateHired(): MyDate                                          |
+| +setOffice(office: int): void                                    |
+| +setSalary(salary: double): void                                 |
+| +setDateHired(dateHired: MyDate): void                           |
+| +toString():String 						   |
+--------------------------------------------------------------------
+__________________________________________________
+|                   Student                      |
+|------------------------------------------------|
+| -status: String                                |
+| ---------------                                |
+| +Student(name: String, address: String,        |
+|  phone: String, email: String, status: String) |
+| +getStatus(): String                           |
+| +setStatus(status: String): void               |
+| +toString(): String                            |
+--------------------------------------------------
+___________________________________________________________
+|                      Faculty                            |
+|---------------------------------------------------------|
+| -officeHours: int                                       |
+| -rank: String                                           |
+| +Faculty(name: String, address: String, phone: String,  |
+|  email: String, office: int, salary: double,            |
+|  officeHours: int, rank: String)     			  |
+| +getOfficeHours(): int                                  |
+| +setOfficeHours(officeHours: int): void                 |
+| +getRank(): String                                      |
+| +setRank(rank: String): void                            |
+| +toString(): String                                     |
+-----------------------------------------------------------
+_______________________________________________________________________
+|                                Staff                                |
+|---------------------------------------------------------------------|
+| -title: String                                                      |
+| +Staff(name: String, address: String, phone: String, email: String, |
+|  office: int, salary: double, dateHired: MyDate, title: String)     |
+| +getTitle(): String                                                 |
+| +setTitle(title: String): void                                      |
+| +toString(): String                                                 |
+-----------------------------------------------------------------------
+____________________________________________
+|                MyDate                    |
+|------------------------------------------|
+| -year: int                               |
+| -month: int                              |
+| -day: int                                |
+| +MyDate()                                |
+| +MyDate(elapsedTime: long)               |
+| +MyDate(year: int, month: int, day: int) |
+| +getYear(): int                          |
+| +getMonth(): int                         |
+| +getDay(): int                           |
+| +setDate(elapsedTime: long)              |
+--------------------------------------------
